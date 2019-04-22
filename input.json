@@ -104,6 +104,10 @@
             "nome": "t3",
             "arcos": [
                 {
+                    "peso": 2,
+                    "apontando": "l3"
+                },
+                {
                     "peso": 0,
                     "apontando": "l6"
                 },

@@ -1,7 +1,8 @@
 {
     "require": {
         "symfony/var-dumper": "^4.2",
-        "phplucidframe/console-table": "^1.2"
+        "phplucidframe/console-table": "^1.2",
+        "wujunze/php-cli-color": "^2.4"
     },
     "autoload": {
         "psr-4": {
