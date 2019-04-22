@@ -1,0 +1,130 @@
+{
+    "lugares": [
+        {
+            "nome": "l1",
+            "marcas": 2,
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "t1"
+                }
+            ]
+        },
+        {
+            "nome": "l2",
+            "marcas": 0,
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "t2"
+                }
+            ]
+        },
+        {
+            "nome": "l3",
+            "marcas": 2,
+            "arcos": [
+                {
+                    "peso": 2,
+                    "apontando": "t2"
+                }
+            ]
+        },
+        {
+            "nome": "l4",
+            "marcas": 0,
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "t3"
+                }
+            ]
+        },
+        {
+            "nome": "l5",
+            "marcas": 5,
+            "arcos": [
+                {
+                    "peso": 3,
+                    "apontando": "t2"
+                }
+            ]
+        },
+        {
+            "nome": "l6",
+            "marcas": 0,
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "t4"
+                }
+            ]
+        },
+        {
+            "nome": "l7",
+            "marcas": 0,
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "t4"
+                }
+            ]
+        },
+        {
+            "nome": "l8",
+            "marcas": 0,
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": null
+                }
+            ]
+        }
+    ],
+    "transicoes": [
+        {
+            "nome": "t1",
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "l2"
+                }
+            ]
+        },
+        {
+            "nome": "t2",
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "l4"
+                }
+            ]
+        },
+        {
+            "nome": "t3",
+            "arcos": [
+                {
+                    "peso": 0,
+                    "apontando": "l6"
+                },
+                {
+                    "peso": 0,
+                    "apontando": "l7"
+                }
+            ]
+        },
+        {
+            "nome": "t4",
+            "arcos": [
+                {
+                    "peso": 3,
+                    "apontando": "l5"
+                },
+                {
+                    "peso": 0,
+                    "apontando": "l8"
+                }
+            ]
+        }
+    ]
+}
